@@ -4,7 +4,7 @@ Proyecto base con libreria barias para desarrollo en ESP32 sobre la plataforma A
 
 ## Build
 ### Consola
-Utilizar el script de cmake: [Arduino-Cmake-Toolchain] ( https://github.com/a9183756-gh/Arduino-CMake-Toolchain )
+Utilizar el script de cmake: [Arduino-Cmake-Toolchain](https://github.com/a9183756-gh/Arduino-CMake-Toolchain)
 
 Windows
 ```
