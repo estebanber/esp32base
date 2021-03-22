@@ -1,0 +1,8 @@
+
+# include
+include_directories(./)
+
+# target
+add_library(rlWifi rlWifi.cpp rl_sockets.cpp)
+target_link_arduino_libraries(rlWifi PRIVATE WiFi ESP32Ping core)
+

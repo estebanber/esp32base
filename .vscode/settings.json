@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "string": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "initializer_list": "cpp",
+        "algorithm": "cpp"
+    },
+    "C_Cpp.intelliSenseEngineFallback": "Disabled",
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "C_Cpp.errorSquiggles": "Enabled"
+}

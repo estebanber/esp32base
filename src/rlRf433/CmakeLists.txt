@@ -1,0 +1,10 @@
+# set the project name
+project(rlrf433)
+
+# include
+include_directories(./)
+
+# target
+add_library(rlrf433 rl_rf433.cpp)
+target_link_arduino_libraries(rlrf433 PRIVATE core)
+

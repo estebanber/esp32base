@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:\\Users\\eberna\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.4\\**",
+                "C:\\Users\\eberna\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\**",
+                "C:\\Users\\eberna\\Documents\\Arduino\\libraries\\**",
+                "C:\\Program Files (x86)\\Arduino\\libraries\\**",
+                "${workspaceFolder}\\**"
+            ],
+            "forcedInclude": [],
+            "defines": [
+                "USBCON"
+            ],
+            "intelliSenseMode": "${default}",
+            "compilerPath": "",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "browse": {
+                "path": [
+                    "C:\\Users\\eberna\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.4\\",
+                    "C:\\Users\\eberna\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\",
+                    "C:\\Users\\eberna\\Documents\\Arduino\\libraries\\",
+                    "C:\\Program Files (x86)\\Arduino\\libraries\\",
+                    "${workspaceFolder}\\"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}

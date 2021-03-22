@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.10)
+
+# set the project name
+project(esp32base)
+
+#include
+include_directories(./src)
+
+#target
+
+add_subdirectory(src/rlCLI)
+add_subdirectory(src/rlDebug)
+add_subdirectory(src/rlRf433)
+add_subdirectory(src/rlWifi)
+
+add_executable(esp32base appbase.cpp)
+target_link_arduino_libraries(esp32base PRIVATE WiFi SPIFFS core)
+target_link_libraries(esp32base PUBLIC rlCLI rlWifi rldebug rlrf433)
+#upload
+target_enable_arduino_upload(esp32base)

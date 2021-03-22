@@ -1,0 +1,8 @@
+
+# include
+include_directories(./)
+
+# target
+add_library(rlCLI rlCLI.cpp)
+target_link_arduino_libraries(rlCLI PRIVATE core)
+

@@ -1,0 +1,10 @@
+# set the project name
+project(rldebug)
+
+# include
+include_directories(./)
+
+# target
+add_library(rldebug rl_debug.cpp)
+target_link_arduino_libraries(rldebug PRIVATE WiFi core)
+
