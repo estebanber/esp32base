@@ -11,6 +11,8 @@ Windows
 mkdir cmbuild
 cd cmbuild
 cmake -D CMAKE_TOOLCHAIN_FILE=..\..\tools\Arduino-CMake-Toolchain\Arduino-toolchain.cmake ..\ -G "MinGW Makefiles"
+#Elegir la placa adecuada en el archivo generado BoardOptions.cmake
+cmake ..\ -G "MinGW Makefiles"
 mingw32-make
 ```
 
@@ -28,4 +30,7 @@ Utilizar el plugin "Arduino" y renombrar el "sketch" principal a appbase.ino
 ### Arduino IDE
 Renombrar el "sketch" principal a appbase.ino
 
-
+## Upload
+```
+mingw32-make upload-esp32base SERIAL_PORT=COM4
+```
